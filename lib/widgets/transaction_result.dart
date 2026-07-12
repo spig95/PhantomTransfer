@@ -59,7 +59,7 @@ class _TransactionResultState extends State<TransactionResult>
           const SizedBox(height: 10),
 
           const Text(
-            'Payment Completed',
+            'payment completed',
             style: const TextStyle(
               fontSize: 22,
             ),
@@ -67,11 +67,15 @@ class _TransactionResultState extends State<TransactionResult>
 
           const SizedBox(height: 80),
 
-          Text(
-            widget.transaction.name,
-            style: TextStyle(
-              fontSize: 48,
-              fontWeight: FontWeight.bold,
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 32),
+            child: Text(
+              widget.transaction.name,
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                fontSize: 48,
+                fontWeight: FontWeight.bold
+              ),
             ),
           ),
 

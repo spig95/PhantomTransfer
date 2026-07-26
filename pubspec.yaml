@@ -95,6 +95,7 @@ flutter:
   assets:
     - assets/sounds/payment_success.mp3
     - assets/sounds/card_detected.mp3
+    - assets/images/app_icon.png
 
 flutter_launcher_icons:
   android: true
